@@ -223,7 +223,7 @@ h1 {
 
 /* RESPONSIVO: Ajusta tamanho no mobile */
 @media (max-width: 768px) {
-  .whatsapp-button {
+  .whatsapp-button, .whatsapp-button1 {
 	position: absolute;
     font-size: 14px;
     padding: 10px 15px;
@@ -365,6 +365,10 @@ h3 {
   font-size: 48px;
   color: #521C57;
   margin-bottom: 0px;
+}
+
+.t5 {
+	background-image: url('ms.png');
 }
 
 .t1 img, .t2 img, .t3 img, .t4 img, .t5 img {
