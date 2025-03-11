@@ -22,31 +22,34 @@
     });
     
     // Scroll suave para links âncora
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(event) {
-        event.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        if (targetElement) {
-          let startPosition = window.scrollY;
-          let targetPosition = targetElement.getBoundingClientRect().top + startPosition;
-          let distance = targetPosition - startPosition;
-          let duration = 1000;
-          let startTime = null;
-          function animation(currentTime) {
-            if (startTime === null) startTime = currentTime;
-            let timeElapsed = currentTime - startTime;
-            let run = ease(timeElapsed, startPosition, distance, duration);
-            window.scrollTo(0, run);
-            if (timeElapsed < duration) requestAnimationFrame(animation);
-          }
-          function ease(t, b, c, d) {
-            t /= d/2;
-            if (t < 1) return c/2*t*t + b;
-            t--;
-            return -c/2*(t*(t-2) - 1) + b;
-          }
-          requestAnimationFrame(animation);
-        }
-      });
-    });
+         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(event) {
+                event.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    let startPosition = window.scrollY;
+                    let targetPosition = targetElement.getBoundingClientRect().top + startPosition;
+                    let distance = targetPosition - startPosition;
+                    let duration = 1000; // Tempo da animação em milissegundos
+                    let startTime = null;
+                    
+                    function animation(currentTime) {
+                        if (startTime === null) startTime = currentTime;
+                        let timeElapsed = currentTime - startTime;
+                        let run = ease(timeElapsed, startPosition, distance, duration);
+                        window.scrollTo(0, run);
+                        if (timeElapsed < duration) requestAnimationFrame(animation);
+                    }
+                    
+                    function ease(t, b, c, d) {
+                        t /= d / 2;
+                        if (t < 1) return c / 2 * t * t + b;
+                        t--;
+                        return -c / 2 * (t * (t - 2) - 1) + b;
+                    }
+                    
+                    requestAnimationFrame(animation);
+                }
+            });
+        });
