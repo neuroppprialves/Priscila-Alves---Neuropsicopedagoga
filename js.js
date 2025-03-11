@@ -55,3 +55,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             });
         });
+
+const whatsappButton = document.querySelector('.whatsapp-button');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 500) {  // Ajuste o valor conforme necessário
+    whatsappButton.style.display = 'block';
+  } else {
+    whatsappButton.style.display = 'none';
+  }
+});
