@@ -1,4 +1,5 @@
    /* Reset e fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
     * {
       margin: 0;
       padding: 0;
@@ -139,11 +140,7 @@
     .position { font-size: 1rem; font-weight: bold; color: #4B583F; }
     
     /* Botão do WhatsApp FIXO */
-    .whatsapp-button-fixed {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 9999;
+    .whatsapp-button-fixed, .whatsapp-button {
       background-color: #521c57;
       color: #D6D0CD;
       font-size: 18px;
@@ -156,10 +153,22 @@
       transition: 0.3s;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     }
-    .whatsapp-button-fixed:hover {
+    .whatsapp-button-fixed:hover, .whatsapp-button:hover {
       background-color: #4B583F;
       transform: scale(1.05);
     }
+
+   .whatsapp-button {
+	position: absolute;
+}
+
+   .whatsapp-button-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
     .whatsapp-icon {
       width: 20px;
       height: 20px;
@@ -199,6 +208,7 @@
     }
     .sobre-mim-imagem img {
       width: 100%;
+      height: auto;
       object-fit: cover;
       border-radius: 20px 0 0 20px;
       display: block;
@@ -215,7 +225,8 @@
       font-weight: 400;
       color: #4B583F;
       margin-bottom: 15px;
-      font-family: "Sacramento", serif;
+      font-family: 'Sacramento', serif;
+      font-style: normal;
     }
     .sobre-mim-texto p {
       font-size: 18px;
@@ -227,7 +238,7 @@
       font-family: "Brush Script MT";
       font-size: 48px;
       color: #521C57;
-      margin-bottom: 0;
+      margin-bottom: 0px;
     }
     .t1, .t2, .t3, .t4, .t5 {
       display: flex;
@@ -247,12 +258,13 @@
       font-family: 'Helvetica';
       font-size: 36px;
       color: #521C57;
-      margin-bottom: 0;
+      margin-bottom: 0px;
     }
     .t1p, .t2p, .t3p, .t4p, .t5p {
       font-family: 'Montserrat', sans-serif;
       font-size: 18px;
       line-height: 1.5;
+      flex: 3;
       padding-left: 15px;
       text-align: center;
       color: #521C57;
@@ -350,6 +362,9 @@
         flex-direction: column;
         text-align: center;
       }
+        .sobre-mim-imagem {
+    max-width: 100%;
+  }
       .sobre-mim-imagem img { border-radius: 20px 20px 0 0; }
       .sobre-mim-texto { padding: 20px; }
     }
@@ -373,3 +388,9 @@
         margin-right: 5px;
       }
     }
+
+@media (max-width: 768px) {
+  .t1, .t2, .t3, .t4, .t5 {
+    flex-direction: column;
+    text-align: center;
+  }
