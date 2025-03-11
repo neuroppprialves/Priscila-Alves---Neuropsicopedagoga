@@ -433,109 +433,106 @@ h3 {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-  footer {
-    padding: 50px 0;
-  }
-  .container-footer{
-    max-width: 1400px;
-    padding: 0 4%;
-    margin: auto;
-    background-color: #521C57;
-  }
- .row-footer{
-    display: flex;
-    flex-wrap: wrap;
-  }
 
-  .footer-col{
-    width: 25%;
-    padding: 0 15px;
-  }
-  .footer-col h4{
-    font-size: 22px;
-    color: white;
-    margin-bottom: 20px;
-    font-weight: 500;
-    position: relative;
-    text-transform: uppercase;
-  }
-  .footer-col ul{
-    list-style: none;
-  }
-  .footer-col ul li{
-    margin: 10px 0;
-  }
-  .footer-col ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: white;
-    text-decoration: none;
-    font-weight: 300;
-    display: block;
-    transition: all 0.3s ease;
-  }
-  .footer-col ul li a:hover{
-    color: #cecdcd;
-    padding-left: 10px;
-  }
-  .footer-col .medias-socias{
-    margin-top: 30px;
-  }
-  .footer-col .medias-socias a{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    margin: 0 10px 10px 0;
-    text-decoration: none;
-    border-radius: 50%;
-    color: white;
-    border: 1px solid white;
-    transition: all 0.5s ease;
-  }
-  .footer-col .medias-socias a i{
-    font-size: 20px;
-  }
-
-  .footer-col .medias-socias a:hover{
-    color: #415aca;
-    background-color: white;
-  }
-  .footer-col .form-sub input{
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
-    outline: none;
-    border: 1px solid white;
-    color: white;
-    background-color: #415aca;
-  }
-  .footer-col .form-sub input::placeholder{
-    color: white;
-  }
-  .footer-col .form-sub button{
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px; 
-    font-size: 17px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    color: #415aca;
-    border-radius: 3px;
-    font-weight: bold;
-    background-color: white;        
-  }
-/* Responsivo */
-@media (max-width: 800px) {
-    .footer-col{
-        width: 50%;
-        margin-bottom: 30px;
-    }
+footer {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  font-family: 'Roboto', sans-serif;
 }
-@media (max-width:600px) {
-    .footer-col{
-        width: 100%;
-    }
+
+.container-footer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.row-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-col {
+  width: 23%;
+  padding: 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #4b583f;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  color: #4b583f;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-col ul li a:hover {
+  color: #521C57;
+  text-decoration: underline;
+}
+
+.form-sub {
+  margin-top: 20px;
+}
+
+.form-sub input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-sub button {
+  background-color: #521C57;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.form-sub button:hover {
+  background-color: #4b583f;
+}
+
+.medias-socias {
+  margin-top: 20px;
+}
+
+.medias-socias a {
+  color: #4b583f;
+  margin-right: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.medias-socias a:hover {
+  color: #521C57;
+}
+
+@media (max-width: 768px) {
+  .footer-col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
