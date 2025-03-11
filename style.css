@@ -433,39 +433,39 @@ h3 {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-footer{
-    background-color: #521C57;
+  footer {
     padding: 50px 0;
-}
-.container-footer{
+  }
+  .container-footer{
     max-width: 1400px;
     padding: 0 4%;
     margin: auto;
-}
-.row-footer{
+    background-color: #521C57;
+  }
+ .row-footer{
     display: flex;
     flex-wrap: wrap;
-}
+  }
 
-.footer-col{
+  .footer-col{
     width: 25%;
     padding: 0 15px;
-}
-.footer-col h4{
+  }
+  .footer-col h4{
     font-size: 22px;
     color: white;
     margin-bottom: 20px;
     font-weight: 500;
     position: relative;
     text-transform: uppercase;
-}
-.footer-col ul{
+  }
+  .footer-col ul{
     list-style: none;
-}
-.footer-col ul li{
+  }
+  .footer-col ul li{
     margin: 10px 0;
-}
-.footer-col ul li a{
+  }
+  .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
     color: white;
@@ -473,15 +473,15 @@ footer{
     font-weight: 300;
     display: block;
     transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
+  }
+  .footer-col ul li a:hover{
     color: #cecdcd;
     padding-left: 10px;
-}
-.footer-col .medias-socias{
+  }
+  .footer-col .medias-socias{
     margin-top: 30px;
-}
-.footer-col .medias-socias a{
+  }
+  .footer-col .medias-socias a{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -493,16 +493,16 @@ footer{
     color: white;
     border: 1px solid white;
     transition: all 0.5s ease;
-}
-.footer-col .medias-socias a i{
+  }
+  .footer-col .medias-socias a i{
     font-size: 20px;
-}
+  }
 
-.footer-col .medias-socias a:hover{
+  .footer-col .medias-socias a:hover{
     color: #415aca;
     background-color: white;
-}
-.footer-col .form-sub input{
+  }
+  .footer-col .form-sub input{
     width: 100%;
     padding: 10px;
     font-size: 15px;
@@ -510,11 +510,11 @@ footer{
     border: 1px solid white;
     color: white;
     background-color: #415aca;
-}
-.footer-col .form-sub input::placeholder{
+  }
+  .footer-col .form-sub input::placeholder{
     color: white;
-}
-.footer-col .form-sub button{
+  }
+  .footer-col .form-sub button{
     width: 100%;
     margin-top: 10px;
     padding: 10px; 
@@ -526,7 +526,7 @@ footer{
     border-radius: 3px;
     font-weight: bold;
     background-color: white;        
-}
+  }
 /* Responsivo */
 @media (max-width: 800px) {
     .footer-col{
