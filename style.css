@@ -184,7 +184,7 @@ h1 {
   color: #4B583F;
 }
 
-.whatsapp-button, .whatsapp-button-fixed {
+.whatsapp-button, .whatsapp-button-fixed, .whatsapp-button1{
   background-color: #521c57;
   color: #D6D0CD;
   font-size: 18px;
@@ -198,12 +198,12 @@ h1 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.whatsapp-button:hover, .whatsapp-button-fixed:hover {
+.whatsapp-button:hover, .whatsapp-button-fixed:hover, .whatsapp-button1:hover {
   background-color: #4B583F;
   transform: scale(1.05);
 }
 
-.whatsapp-button {
+.whatsapp-button, .whatsapp-button1 {
 	position: absolute;
 
 }
