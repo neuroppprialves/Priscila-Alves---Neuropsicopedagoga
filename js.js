@@ -1,4 +1,4 @@
-    // Função para alternar o menu
+   // Função para alternar o menu
     function menuOnClick() {
       document.getElementById("menu-bar").classList.toggle("change");
       document.getElementById("nav").classList.toggle("change");
@@ -6,20 +6,16 @@
     }
     
     // Animação de textos ao rolar a página
-document.addEventListener("DOMContentLoaded", function () {
-  const animatedTexts = document.querySelectorAll(".animated-text");
-
-  function checkScroll() {
-    const triggerBottom = window.innerHeight * 0.95; // Define o ponto de ativação
-
-    animatedTexts.forEach((text) => {
-      const textTop = text.getBoundingClientRect().top;
-
-      if (textTop < triggerBottom) {
-        text.classList.add("visible");
-      }
-    });
-  }
+    document.addEventListener("DOMContentLoaded", function () {
+      const animatedTexts = document.querySelectorAll(".animated-text");
+      function checkScroll() {
+        const triggerBottom = window.innerHeight * 0.95;
+        animatedTexts.forEach((text) => {
+          const textTop = text.getBoundingClientRect().top;
+          if (textTop < triggerBottom) {
+            text.classList.add("visible");
+          }
+        });
       }
       checkScroll();
       window.addEventListener("scroll", checkScroll);
