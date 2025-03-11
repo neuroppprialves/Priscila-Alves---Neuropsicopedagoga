@@ -368,9 +368,11 @@ h3 {
 }
 
 .t5 {
-	background-image: url('ms.png');
-	width: 100px;
+	background-image: url('ms.png') no-repeat center center;
+	width: 100%;
     height: 100px;
+	display: block;
+	background-size: cover;
 }
 
 .t1 img, .t2 img, .t3 img, .t4 img, .t5 img {
