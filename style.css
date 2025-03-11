@@ -94,6 +94,11 @@
       height: 747px;
       transform: translate(60%,-30%);
     }
+
+   .nav li:first-child a,
+   .nav li:nth-child(2) a {
+     background-color: transparent;
+   }
     
     /* Banner */
     .banner-container {
