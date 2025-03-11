@@ -369,6 +369,8 @@ h3 {
 
 .t5 {
 	background-image: url('ms.png');
+	width: 100px;
+    height: 100px;
 }
 
 .t1 img, .t2 img, .t3 img, .t4 img, .t5 img {
