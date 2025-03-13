@@ -299,7 +299,7 @@
       width: 23%;
       padding: 15px;
     }
-    .footer-col h4 {
+    .footer-col h4, .footer-col h5 {
       font-size: 18px;
       font-weight: bold;
       margin-bottom: 10px;
