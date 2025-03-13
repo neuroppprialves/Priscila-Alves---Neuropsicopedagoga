@@ -299,12 +299,25 @@
       width: 23%;
       padding: 15px;
     }
-    .footer-col h4, .footer-col h5 {
+    .footer-col h4 {
       font-size: 18px;
       font-weight: bold;
       margin-bottom: 10px;
       color: #B0C4DE;
     }
+
+    .footer-col h5 {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #B0C4DE;
+    }
+
+     .footer-p {
+      color: #D6D0CD;
+      text-decoration: none;
+      font-size: 16px;
+     }
+
     .footer-col ul {
       list-style: none;
       padding: 0;
