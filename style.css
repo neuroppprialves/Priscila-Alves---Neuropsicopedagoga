@@ -278,6 +278,12 @@
       position: relative;
       z-index: 10;
     }
+
+    .logo1 {
+      display: inline-block;
+      margin: 5px;
+    }
+
     .container-footer {
       width: 90%;
       margin: 0 auto;
