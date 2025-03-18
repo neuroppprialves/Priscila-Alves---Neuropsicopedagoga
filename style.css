@@ -140,7 +140,31 @@
     .position { font-size: 1rem; font-weight: bold; color: #4B583F; }
     
     /* Botão do WhatsApp FIXO */
-    .whatsapp-button-fixed, .whatsapp-button {
+
+.whatsapp-button-fixed {
+  position: fixed;
+  bottom: 20px;  /* Ajusta a distância da parte inferior da tela */
+  right: 20px;   /* Ajusta a distância da parte direita da tela */
+  background-color: #521c57;  /* Cor do fundo do botão */
+  color: #D6D0CD;  /* Cor do texto */
+  font-size: 18px;
+  padding: 12px 20px; /* Ajusta o padding para dar espaço ao texto e ícone */
+  border-radius: 25px;  /* Deixa o botão com bordas arredondadas */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;  /* Remove o sublinhado do link */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave para o botão */
+  z-index: 1000;  /* Garante que o botão esteja sempre acima de outros elementos */
+}
+
+.whatsapp-button-fixed:hover {
+  background-color: #4B583F; /* Altera a cor quando o botão for sobrevoado */4
+  transform: scale(1.05);
+}
+
+
+    .whatsapp-button {
       background-color: #521c57;
       color: #D6D0CD;
       font-size: 18px;
@@ -153,7 +177,7 @@
       transition: 0.3s;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     }
-    .whatsapp-button-fixed:hover, .whatsapp-button:hover {
+    .whatsapp-button:hover {
       background-color: #4B583F;
       transform: scale(1.05);
     }
