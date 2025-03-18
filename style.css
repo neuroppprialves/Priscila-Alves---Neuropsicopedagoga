@@ -235,6 +235,7 @@
       flex: 1;
       max-width: 40%;
       justify-content: flex-end;
+      align-self: flex-end;
       align-items: flex-end;
     }
     .sobre-mim-imagem img {
