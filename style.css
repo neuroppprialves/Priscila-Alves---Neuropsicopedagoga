@@ -263,6 +263,22 @@
       font-size: 18px;
       line-height: 1.6;
     }
+
+.sobre-mim-mais {
+  font-size: 16px;
+  color: #D6D0CD; /* Cor padrão do texto */
+}
+
+.lattes-link {
+  color: #521c57; /* Tom mais escuro da cor usada no botão */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.lattes-link:hover {
+  color: #4B583F; /* Tom de verde para o hover */
+}
+
     
     /* Seção Serviços */
     h3 {
