@@ -339,19 +339,24 @@ footer {
   flex-wrap: wrap;
 }
 
-/* Estilização das colunas do footer */
+/* Colunas do footer */
 .footer-col {
   flex: 1;
-  min-width: 200px;
+  min-width: 220px;
   padding: 15px;
+  text-align: center;
 }
 
-/* Ajuste do logo */
+/* Logo */
+.footer-col.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo1 img {
-  display: block;
   max-width: 120px;
   height: auto;
-  margin: 0 auto;
 }
 
 /* Navegação */
@@ -470,8 +475,6 @@ footer {
     bottom: 15px;
     right: 15px;
   }
-}
-
 }
 
     
