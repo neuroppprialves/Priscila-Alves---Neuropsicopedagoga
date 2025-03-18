@@ -227,9 +227,10 @@
       background-color: #B0C4DE;
       border-radius: 20px;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       overflow: hidden;
       box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+      justify-content: space-between;
     }
     .sobre-mim-imagem {
       display: flex;
@@ -239,12 +240,12 @@
       flex-grow: 1;
     }
     .sobre-mim-imagem img {
-      width: 100%;
+      max-width: 100%;
       height: auto;
       object-fit: cover;
       border-radius: 20px 0 0 20px;
       display: block;
-      margin-top: auto;
+      margin-bottom: 0;
     }
     .sobre-mim-texto {
       flex: 2;
