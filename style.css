@@ -235,6 +235,7 @@
       display: flex;
       max-width: 40%;
       align-items: flex-end;
+     justify-content: center;
     }
     .sobre-mim-imagem img {
       width: 100%;
@@ -242,8 +243,7 @@
       object-fit: cover;
       border-radius: 20px 0 0 20px;
       display: block;
-      margin: 55px auto 0;
-      margin-bottom: 0px;
+      margin: 0;
     }
     .sobre-mim-texto {
       flex: 2;
