@@ -360,18 +360,8 @@
       background-color: #F3CED4;
     }
 
-
-    .medias-socias {
-      margin-top: 20px;
-    }
-    .medias-socias a {
-      color: #B0C4DE;
-      margin-right: 15px;
-      font-size: 20px;
-      text-decoration: none;
-    }
     .medias-socias a:hover {
-      color: #D6D0CD;
+      transform: scale(1.05);
     }
     
     /* Responsividade */
