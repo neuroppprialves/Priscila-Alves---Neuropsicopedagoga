@@ -309,40 +309,28 @@ footer {
   color: #B0C4DE;
 }
 
+/* Rodapé centralizado corretamente */
 .footer-p {
+  width: 100%; /* Ocupa toda a largura */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   color: #D6D0CD;
   font-size: 16px;
-  text-align: center;
   margin-top: 20px;
 }
 
+/* Ajuste da cor do link "Daniel Mafra" */
 .footer-p a {
-  color: #D6D0CD;
+  color: #D6D0CD !important; /* Garante que fique da mesma cor do texto */
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .footer-p a:hover {
-  color: #E0D6D3; /* Tom levemente mais claro */
-}
-
-.footer-col ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-col ul li {
-  margin-bottom: 8px;
-}
-
-.footer-col ul li a {
-  color: #D6D0CD;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.footer-col ul li a:hover {
-  color: #B0C4DE;
-  text-decoration: underline;
+  color: #E0D6D3 !important; /* Tom levemente mais claro no hover */
 }
 
 /* Ajustes para as redes sociais */
@@ -356,9 +344,8 @@ footer {
   transition: transform 0.3s ease;
 }
 
-.medias-sociais a:hover {
-  transform: scale(1.05);
-}
+.m
+
 
     
     /* Responsividade */
