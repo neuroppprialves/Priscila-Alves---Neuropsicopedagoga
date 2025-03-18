@@ -152,7 +152,6 @@
   border-radius: 25px;  /* Deixa o botão com bordas arredondadas */
   display: flex;
   align-items: center;
-  justify-content: center;
   text-decoration: none;  /* Remove o sublinhado do link */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave para o botão */
   z-index: 1000;  /* Garante que o botão esteja sempre acima de outros elementos */
