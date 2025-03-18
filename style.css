@@ -139,34 +139,41 @@
     .name { font-size: 1.5rem; font-weight: bold; color: #4B583F; }
     .position { font-size: 1rem; font-weight: bold; color: #4B583F; }
     
-    /* Botão do WhatsApp FIXO */
-
-.whatsapp-button-fixed {
-  position: fixed;
-  bottom: 20px;  /* Ajusta a distância da parte inferior da tela */
-  right: 20px;   /* Ajusta a distância da parte direita da tela */
-  background-color: #521c57;  /* Cor do fundo do botão */
-  color: #D6D0CD;  /* Cor do texto */
+.whatsapp-button, .whatsapp-button-fixed {
+  background-color: #521c57;
+  color: #D6D0CD;
   font-size: 18px;
-  padding: 12px 20px; /* Ajusta o padding para dar espaço ao texto e ícone */
-  border-radius: 25px;  /* Deixa o botão com bordas arredondadas */
+  padding: 12px 20px;
+  border-radius: 25px;
   display: flex;
   align-items: center;
-  text-decoration: none;  /* Remove o sublinhado do link */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave para o botão */
-  z-index: 1000;  /* Garante que o botão esteja sempre acima de outros elementos */
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.whatsapp-button-fixed:hover {
-  background-color: #4B583F; /* Altera a cor quando o botão for sobrevoado */4
+.whatsapp-button:hover, .whatsapp-button-fixed:hover {
+  background-color: #4B583F;
   transform: scale(1.05);
 }
 
-    .whatsapp-icon {
-      width: 20px;
-      height: 20px;
-      margin-right: 8px;
-    }
+.whatsapp-button {
+	position: absolute;
+}
+
+.whatsapp-button-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
     
     /* Animação de textos */
     .animated-text {
@@ -426,18 +433,19 @@ footer {
       .description { font-size: 1rem; }
       .name, .position { font-size: 1rem; }
       .footer-col { width: 100%; margin-bottom: 30px; }
-      .whatsapp-button-fixed {
-        bottom: 15px;
-        right: 15px;
-        font-size: 14px;
-        padding: 10px 15px;
-        border-radius: 20px;
-      }
-      .whatsapp-icon {
-        width: 18px;
-        height: 18px;
-        margin-right: 5px;
-      }
+  .whatsapp-button {
+	position: absolute;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    bottom: 15px;
+    right: 15px;
+  }
+  .whatsapp-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
     }
 
 @media (max-width: 768px) {
