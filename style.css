@@ -337,31 +337,11 @@ footer {
   text-align: right;
 }
 
-.footer-col mapa iframe {
+.footer-col.mapa iframe {
   width: 100%;
   max-width: 300px;
   height: 200px;
   border-radius: 10px;
-}
-
-.footer-col mapa ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-col mapa ul li {
-  margin-bottom: 8px;
-}
-
-.footer-col mapa ul li a {
-  color: #D6D0CD;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.footer-col mapa ul li a:hover {
-  color: #B0C4DE;
-  text-decoration: underline;
 }
 
 /* Rodapé centralizado corretamente */
