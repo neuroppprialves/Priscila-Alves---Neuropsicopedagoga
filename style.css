@@ -223,16 +223,16 @@
     }
     .sobre-mim-container {
       width: 1150px;
-      height: 750px;
+      height: 600px;
       background-color: #B0C4DE;
       border-radius: 20px;
       display: flex;
+      align-items: center;
       overflow: hidden;
       box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-      justify-content: space-between;
     }
     .sobre-mim-imagem {
-      display: flex;
+      flex: 1;
       max-width: 40%;
       align-items: flex-end;
     }
@@ -242,7 +242,6 @@
       object-fit: cover;
       border-radius: 20px 0 0 20px;
       display: block;
-      position: absolute;
       margin-bottom: 0;
     }
     .sobre-mim-texto {
