@@ -318,6 +318,7 @@
       color: #521C57;
     }
     
+
 /* Footer */
 footer {
   background-color: #521C57;
@@ -362,13 +363,10 @@ footer {
 .footer-col ul {
   list-style: none;
   padding: 0;
-  width: 100%;
-  margin: 0;
 }
 
 .footer-col ul li {
   margin-bottom: 8px;
-  list-style-type: none;
 }
 
 .footer-col ul li a {
@@ -386,7 +384,6 @@ footer {
 .footer-col.mapa {
   width: 30%;
   text-align: right;
-list-style-type: none;
 }
 
 .footer-col.mapa iframe {
@@ -394,18 +391,6 @@ list-style-type: none;
   max-width: 300px;
   height: 200px;
   border-radius: 10px;
-}
-
-.footer-col.mapa li {
-  display: block;
-  text-align: right;
-}
-
-.localp {
-  color: #D6D0CD;
-  text-decoration: none;
-  font-size: 16px;
-  text-align: right;
 }
 
 /* Rodapé centralizado corretamente */
