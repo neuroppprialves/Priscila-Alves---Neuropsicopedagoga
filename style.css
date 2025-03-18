@@ -310,6 +310,27 @@ footer {
   color: #B0C4DE;
 }
 
+/* Navegação */
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  color: #D6D0CD;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-col ul li a:hover {
+  color: #B0C4DE;
+  text-decoration: underline;
+}
+
 /* Ajuste do mapa */
 .footer-col.mapa {
   width: 30%;
@@ -380,7 +401,6 @@ footer {
     text-align: center;
   }
 }
-
 
     
     /* Responsividade */
