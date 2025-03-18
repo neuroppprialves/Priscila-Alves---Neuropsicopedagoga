@@ -203,8 +203,9 @@
       box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     }
     .sobre-mim-imagem {
-      flex: 1;
+      display: flex;
       max-width: 40%;
+      align-items: flex-end;
     }
     .sobre-mim-imagem img {
       width: 100%;
@@ -213,7 +214,7 @@
       border-radius: 20px 0 0 20px;
       display: block;
       margin: 55px auto 0;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
     }
     .sobre-mim-texto {
       flex: 2;
