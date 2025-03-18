@@ -227,7 +227,6 @@
       background-color: #B0C4DE;
       border-radius: 20px;
       display: flex;
-      align-items: flex-start;
       overflow: hidden;
       box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
       justify-content: space-between;
@@ -245,7 +244,6 @@
       display: block;
       position: absolute;
       margin-bottom: 0;
-      margin-left: 0;
     }
     .sobre-mim-texto {
       flex: 2;
