@@ -223,7 +223,7 @@
     }
     .sobre-mim-container {
       width: 1150px;
-      height: 650px;
+      height: 700px;
       background-color: #B0C4DE;
       border-radius: 20px;
       display: flex;
@@ -265,14 +265,14 @@
     }
 
 .sobre-mim-mais {
-  font-size: 16px;
-  color: #D6D0CD; /* Cor padrão do texto */
+  font-size: 18px;
+  color: #521C57; /* Cor padrão do texto */
 }
 
 .lattes-link {
-  color: #521c57; /* Tom mais escuro da cor usada no botão */
   text-decoration: none;
   font-weight: bold;
+ text-decoration: underline;
 }
 
 .lattes-link:hover {
