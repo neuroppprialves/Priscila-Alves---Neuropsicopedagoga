@@ -463,14 +463,12 @@ list-style-type: none;
     text-align: center;
   }
   .whatsapp-button {
-    width: 50px;
-    height: 50px;
+   position: absolute;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 20px;
     bottom: 15px;
     right: 15px;
-  }
-.whatsapp-button img {
-    width: 30px;
-    height: 30px;
   }
 }
 
@@ -502,27 +500,5 @@ list-style-type: none;
       .description { font-size: 1rem; }
       .name, .position { font-size: 1rem; }
       .footer-col { width: 100%; margin-bottom: 30px; }
-  .whatsapp-button {
-    font-size: 2vw;
-    padding: 1.5vw 3vw;
-    max-width: 20vw;
-  }
-
-  .whatsapp-button img {
-    width: 3vw;
-    height: 3vw;
-  }
     }
 
-@media (max-width: 600px) {
-  .whatsapp-button {
-    font-size: 3.5vw;
-    padding: 2.5vw 5vw;
-    max-width: 30vw;
-  }
-
-  .whatsapp-button img {
-    width: 4vw;
-    height: 4vw;
-  }
-}
