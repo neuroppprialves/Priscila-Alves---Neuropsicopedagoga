@@ -320,127 +320,147 @@
     
 
 /* Footer */
- footer {
-   background-color: #521C57;
-   padding: 40px 0;
-   font-family: 'Roboto', sans-serif;
-   position: relative;
-   z-index: 10;
- }
- 
- .logo1 {
-   display: inline-block;
- }
- 
- .container-footer {
-   width: 90%;
-   margin: 0 auto;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
- }
- 
- .row-footer {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   align-items: flex-start;
- }
- 
- .footer-col {
-   width: 23%;
-   padding: 15px;
- }
- 
- .footer-col h4 {
-   font-size: 18px;
-   font-weight: bold;
-   margin-bottom: 10px;
-   color: #B0C4DE;
- }
- 
- /* Navegação */
- .footer-col ul {
-   list-style: none;
-   padding: 0;
- }
- 
- .footer-col ul li {
-   margin-bottom: 8px;
-   list-style-type: none;
- }
- 
- .footer-col ul li a {
-   color: #D6D0CD;
-   text-decoration: none;
-   font-size: 16px;
- }
- 
- .footer-col ul li a:hover {
-   color: #B0C4DE;
-   text-decoration: underline;
- }
- 
- /* Ajuste do mapa */
- .footer-col.mapa {
-   width: 30%;
-   text-align: right;
- list-style-type: none;
- }
- 
- .footer-col.mapa iframe {
-   width: 100%;
-   max-width: 300px;
-   height: 200px;
-   border-radius: 10px;
- }
- 
- .localp {
-   color: #D6D0CD;
-   text-decoration: none;
-   font-size: 16px;
-   text-align: right;
- }
- 
- /* Rodapé centralizado corretamente */
- .footer-p {
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   color: #D6D0CD;
-   font-size: 16px;
-   margin-top: 20px;
- }
- 
- /* Ajuste da cor do link "Daniel Mafra" */
- .footer-p a {
-   color: #D6D0CD !important;
-   text-decoration: none;
-   transition: color 0.3s ease;
- }
- 
- .footer-p a:hover {
-   color: #E0D6D3 !important;
- }
- 
- /* Ajustes para as redes sociais */
- .medias-sociais {
-   display: flex;
-   gap: 10px;
- }
- 
- .medias-sociais a {
-   display: inline-block;
-   transition: transform 0.3s ease;
- }
- 
- .medias-sociais a:hover {
-   transform: scale(1.05);
- }
- 
+footer {
+  background-color: #521C57;
+  padding: 40px 0;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  z-index: 10;
+  color: #D6D0CD;
+}
+
+/* Container principal do footer */
+.container-footer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Estilos das colunas do footer */
+.footer-col {
+  width: 23%;
+  padding: 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #B0C4DE;
+}
+
+/* Navegação */
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  color: #D6D0CD;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-col ul li a:hover {
+  color: #B0C4DE;
+  text-decoration: underline;
+}
+
+/* Ajuste do logo */
+.logo1 img {
+  display: block;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Ajuste das redes sociais */
+.medias-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.medias-sociais a img {
+  width: 30px;
+  transition: transform 0.3s ease;
+}
+
+.medias-sociais a:hover img {
+  transform: scale(1.1);
+}
+
+/* Ajuste do mapa */
+.footer-col.mapa {
+  width: 30%;
+  text-align: center;
+}
+
+.footer-col.mapa iframe {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.localp {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Rodapé centralizado */
+.footer-p {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-p p {
+  font-size: 16px;
+}
+
+.footer-p a {
+  color: #D6D0CD;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-p a:hover {
+  color: #E0D6D3;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .container-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-col.mapa {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .medias-sociais {
+    flex-wrap: wrap;
+  }
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   .row-footer, .medias-sociais {
