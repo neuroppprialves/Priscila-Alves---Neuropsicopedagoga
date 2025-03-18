@@ -295,6 +295,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer-col {
@@ -309,9 +310,22 @@ footer {
   color: #B0C4DE;
 }
 
+/* Ajuste do mapa */
+.footer-col.mapa {
+  width: 30%;
+  text-align: right;
+}
+
+.footer-col.mapa iframe {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
 /* Rodapé centralizado corretamente */
 .footer-p {
-  width: 100%; /* Ocupa toda a largura */
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -324,13 +338,13 @@ footer {
 
 /* Ajuste da cor do link "Daniel Mafra" */
 .footer-p a {
-  color: #D6D0CD !important; /* Garante que fique da mesma cor do texto */
+  color: #D6D0CD !important;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-p a:hover {
-  color: #E0D6D3 !important; /* Tom levemente mais claro no hover */
+  color: #E0D6D3 !important;
 }
 
 /* Ajustes para as redes sociais */
@@ -344,7 +358,28 @@ footer {
   transition: transform 0.3s ease;
 }
 
-.m
+.medias-sociais a:hover {
+  transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .row-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-col {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-col.mapa {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 
     
