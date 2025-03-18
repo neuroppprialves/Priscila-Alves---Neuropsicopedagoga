@@ -324,9 +324,8 @@ footer {
   background-color: #521C57;
   padding: 40px 0;
   font-family: 'Roboto', sans-serif;
-  position: relative;
-  z-index: 10;
   color: #D6D0CD;
+  width: 100%;
 }
 
 /* Container principal do footer */
@@ -335,17 +334,27 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-/* Estilos das colunas do footer */
+/* Estilização das colunas do footer */
 .footer-col {
-  width: 23%;
+  flex: 1;
+  min-width: 200px;
   padding: 15px;
 }
 
+/* Ajuste do logo */
+.logo1 img {
+  display: block;
+  max-width: 120px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Navegação */
 .footer-col h4 {
   font-size: 18px;
   font-weight: bold;
@@ -353,7 +362,6 @@ footer {
   color: #B0C4DE;
 }
 
-/* Navegação */
 .footer-col ul {
   list-style: none;
   padding: 0;
@@ -374,15 +382,7 @@ footer {
   text-decoration: underline;
 }
 
-/* Ajuste do logo */
-.logo1 img {
-  display: block;
-  max-width: 100px;
-  height: auto;
-  margin-bottom: 15px;
-}
-
-/* Ajuste das redes sociais */
+/* Redes Sociais */
 .medias-sociais {
   display: flex;
   justify-content: center;
@@ -399,9 +399,8 @@ footer {
   transform: scale(1.1);
 }
 
-/* Ajuste do mapa */
+/* Localização (mapa) */
 .footer-col.mapa {
-  width: 30%;
   text-align: center;
 }
 
@@ -453,30 +452,10 @@ footer {
 
   .footer-col.mapa {
     width: 100%;
-    text-align: center;
   }
-  
+
   .medias-sociais {
     flex-wrap: wrap;
-  }
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-  .row-footer, .medias-sociais {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-col, .medias-sociais {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .footer-col.mapa {
-    width: 100%;
-    text-align: center;
   }
 
   .t1, .t2, .t3, .t4, .t5 {
@@ -493,10 +472,6 @@ footer {
   }
 }
 
-.footer-col.mapa li {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
 
     
@@ -520,6 +495,6 @@ footer {
       h1 { font-size: 2rem; }
       .description { font-size: 1rem; }
       .name, .position { font-size: 1rem; }
-      .footer-col { width: 100%; margin-bottom: 30px; }
+
     }
 
