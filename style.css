@@ -503,30 +503,26 @@ list-style-type: none;
       .name, .position { font-size: 1rem; }
       .footer-col { width: 100%; margin-bottom: 30px; }
   .whatsapp-button {
-	position: absolute;
-    font-size: 14px;
-    padding: 10px 15px;
-    border-radius: 20px;
-    bottom: 15px;
-    right: 15px;
-  }
-  .whatsapp-icon {
-    width: 18px;
-    height: 18px;
-    margin-right: 5px;
-  }
-    }
-
-@media (max-width: 480px) {
-  .whatsapp-button {
-    width: 45px;
-    height: 45px;
-    bottom: 10px;
-    right: 10px;
+    font-size: 2vw;
+    padding: 1.5vw 3vw;
+    max-width: 20vw;
   }
 
   .whatsapp-button img {
-    width: 28px;
-    height: 28px;
+    width: 3vw;
+    height: 3vw;
+  }
+    }
+
+@media (max-width: 600px) {
+  .whatsapp-button {
+    font-size: 3.5vw;
+    padding: 2.5vw 5vw;
+    max-width: 30vw;
+  }
+
+  .whatsapp-button img {
+    width: 4vw;
+    height: 4vw;
   }
 }
