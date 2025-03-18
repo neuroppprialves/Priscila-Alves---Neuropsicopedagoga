@@ -344,6 +344,13 @@ footer {
   border-radius: 10px;
 }
 
+.localp {
+  color: #D6D0CD;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: right;
+}
+
 /* Rodapé centralizado corretamente */
 .footer-p {
   width: 100%;
