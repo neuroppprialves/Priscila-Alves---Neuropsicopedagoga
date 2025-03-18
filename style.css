@@ -162,13 +162,6 @@
   transform: scale(1.05);
 }
 
-   .whatsapp-button-fixed {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-}
-
     .whatsapp-icon {
       width: 20px;
       height: 20px;
