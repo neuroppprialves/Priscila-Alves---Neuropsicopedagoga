@@ -349,6 +349,7 @@ footer {
 
 .footer-col ul li {
   margin-bottom: 8px;
+  list-style-type: none;
 }
 
 .footer-col ul li a {
@@ -366,6 +367,7 @@ footer {
 .footer-col.mapa {
   width: 30%;
   text-align: right;
+list-style-type: none;
 }
 
 .footer-col.mapa iframe {
