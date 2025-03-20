@@ -351,13 +351,12 @@ footer {
 /* Logo */
 .footer-col.logo {
   flex: 1 1 100%;
-  text-align: center;
+  text-align: left;
   margin-bottom: 30px;
 }
 
 .footer-col.logo a img {
   max-width: 100%;
-
 }
 
 /* Navegação e Serviços */
@@ -406,6 +405,7 @@ footer {
 }
 
 .medias-sociais {
+  text-align: center;
   display: flex;
   gap: 10px;
 }
@@ -496,6 +496,9 @@ footer {
     bottom: 15px;
     right: 15px;
   }
+.footer-col.logo {
+  text-align: center;
+}
 }
 
     
