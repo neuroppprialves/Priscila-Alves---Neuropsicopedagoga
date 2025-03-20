@@ -158,9 +158,10 @@
   transform: scale(1.05);
 }
 
-.whatsapp-button {
+/*.whatsapp-button {
 	position: absolute;
 }
+*/
 
 .whatsapp-button-fixed {
   position: fixed;
@@ -188,8 +189,7 @@
   font-weight: bold;
   transition: 0.3s;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 #whatsapp-button-footer:hover {
@@ -350,8 +350,8 @@ footer {
 
 /* Logo */
 .footer-col.logo {
-  flex: 1 1 100%;
-  text-align: left;
+  flex: 1 1 25%;
+  text-align: center;
   margin-bottom: 30px;
 }
 
@@ -405,8 +405,8 @@ footer {
 }
 
 .medias-sociais {
-  text-align: center;
   display: flex;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -421,8 +421,8 @@ footer {
 
 /* Localização */
 .footer-col.mapa {
-  flex: 1 1 30%;
-  text-align: right;
+  flex: 1 1 25%;
+  text-align: center;
 }
 
 .footer-col.mapa h4 {
@@ -488,14 +488,24 @@ footer {
     flex-direction: column;
     text-align: center;
   }
-  .whatsapp-button {
-   position: absolute;
+	
+ .whatsapp-button {
+    position: absolute;
     font-size: 14px;
     padding: 10px 15px;
     border-radius: 20px;
     bottom: 15px;
     right: 15px;
   }
+
+#whatsapp-button-footer {
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    margin: 20px auto;
+    position: relative; /* ou simplesmente sem posicionamento absoluto */
+  }
+	
 .footer-col.logo {
   text-align: center;
 }
