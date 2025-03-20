@@ -439,7 +439,7 @@ footer {
 
 /* Garantindo que o iframe acompanhe o alinhamento */
 .footer-col.mapa .map-container {
-  text-align: right;
+  text-align: center;
   margin-bottom: 10px;
 }
 
