@@ -151,20 +151,16 @@
   font-weight: bold;
   transition: 0.3s;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.whatsapp-button {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .whatsapp-button:hover, .whatsapp-button-fixed:hover {
   background-color: #4B583F;
   transform: scale(1.05);
 }
-
-/*.whatsapp-button {
-	position: absolute;
-}
-*/
 
 .whatsapp-button-fixed {
   position: fixed;
