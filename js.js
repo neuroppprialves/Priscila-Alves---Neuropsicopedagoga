@@ -54,4 +54,26 @@
             });
         });
 
+document.addEventListener("DOMContentLoaded", function () {
+    var emailDaniel = document.getElementById("emailDaniel");
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    if (isMobile) {
+      emailDaniel.href = "mailto:danimafra.2018@gmail.com";
+    } else {
+      emailDaniel.href = "https://mail.google.com/mail/?view=cm&fs=1&to=danimafra.2018@gmail.com";
+    }
+  });
+
+document.addEventListener("DOMContentLoaded", function () {
+    var email = document.getElementById("email");
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    if (isMobile) {
+      email.href = "mailto:neuropp.prialves@gmail.com";
+    } else {
+      email.href = "https://mail.google.com/mail/?view=cm&fs=1&to=neuropp.prialves@gmail.com";
+    }
+  });
+
 document.getElementById("year").textContent = new Date().getFullYear();
