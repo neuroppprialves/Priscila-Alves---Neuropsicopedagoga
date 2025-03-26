@@ -22,7 +22,7 @@
 
 	.fundo .logo,
 .fundo .medias-sociais {
-  display: flex;
+  display: inline-block;
   vertical-align: middle;
 }
 .fundo .medias-sociais {
