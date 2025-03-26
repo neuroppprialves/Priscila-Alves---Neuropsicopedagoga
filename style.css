@@ -16,7 +16,18 @@
     }
     .fundo {
       background-color: #B0C4DE;
+      text-align: center; /* centraliza o conteúdo */
+      position: relative;
     }
+
+	.fundo .logo,
+.fundo .medias-sociais {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fundo .medias-sociais {
+  margin-left: 20px; /* distância da logo */
+}
     
     /* Header, logo e menu */
     .logo {
