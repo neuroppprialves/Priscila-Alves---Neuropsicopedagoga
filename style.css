@@ -482,9 +482,9 @@ footer {
 /* Responsividade */
 @media (max-width: 768px) {
 
-.footer .social-icons {
+.footer .medias-sociais {
         justify-content: flex-start; /* Move para a esquerda */
-        padding-left: 20px; /* Ajusta a posição */
+        padding-left: 10px; /* Ajusta a posição */
     }
 	
   .row-footer {
