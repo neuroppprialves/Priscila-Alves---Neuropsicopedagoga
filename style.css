@@ -16,7 +16,7 @@
     }
     .fundo {
       background-color: #B0C4DE;
-      text-align: center; /* centraliza o conteúdo */
+      text-align: left; /* centraliza o conteúdo */
       position: relative;
     }
 
