@@ -28,6 +28,7 @@
 .fundo .medias-sociais {
      gap: 15px;
      justify-content: center;
+     text-align: center;
 }
     
     /* Header, logo e menu */
