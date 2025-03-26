@@ -28,7 +28,6 @@
 .fundo .medias-sociais {
      gap: 15px;
      justify-content: center;
-     text-align: center;
 }
     
     /* Header, logo e menu */
@@ -485,7 +484,7 @@ footer {
 
 .footer .social-icons {
         justify-content: flex-start; /* Move para a esquerda */
-        padding-left: 10px; /* Ajusta a posição */
+        padding-left: 20px; /* Ajusta a posição */
     }
 	
   .row-footer {
