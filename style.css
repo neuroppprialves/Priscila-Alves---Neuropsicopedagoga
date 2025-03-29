@@ -135,7 +135,7 @@
       color: white;
       text-align: left;
     }
-    h1 {
+    .banner-container h1 {
       font-family: 'Montserrat', sans-serif;
       font-size: 3rem;
       color: #521C57;
