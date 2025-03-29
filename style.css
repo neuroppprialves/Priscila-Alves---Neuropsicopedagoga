@@ -168,6 +168,7 @@
 
 .whatsapp-button {
   position: absolute;
+  margin: 10px;
 }
 
 .whatsapp-button:hover, .whatsapp-button-fixed:hover {
