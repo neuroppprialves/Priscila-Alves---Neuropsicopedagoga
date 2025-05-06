@@ -162,6 +162,12 @@
 	color: #4B583F;
 	margin-left: 10px;
     }
+
+     .t-lives h3 {
+	color: #521C57;
+	margin-left: 10px;
+	font-family: 'Roboto', sans-serif;
+     }
    
     .description {
       font-family: 'Montserrat', sans-serif;
