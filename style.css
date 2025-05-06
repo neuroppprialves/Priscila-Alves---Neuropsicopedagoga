@@ -141,6 +141,16 @@
       color: #521C57;
       margin: 0;
     }
+    .banner-container-lives {
+      position: relative;
+      width: 100%;
+      height: 40px;
+      background-color: #D6D0CD;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
     .description {
       font-family: 'Montserrat', sans-serif;
       font-size: 1.2rem;
