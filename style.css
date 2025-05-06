@@ -277,6 +277,10 @@
       font-size: 18px;
       line-height: 1.6;
     }
+    .sobre-mim-texto h3 {
+        font-family: 'Roboto', sans-serif;
+	color: #4B583F;
+    }
 
 .sobre-mim-mais {
   font-size: 18px;
