@@ -152,6 +152,17 @@
       text-align: center;
       color: #521C57;
     }
+
+    .lives h3 {
+	color: #521C57;
+	margin-left: 10px;
+    }
+
+     .lives p {
+	color: #4B583F;
+	margin-left: 10px;
+    }
+   
     .description {
       font-family: 'Montserrat', sans-serif;
       font-size: 1.2rem;
