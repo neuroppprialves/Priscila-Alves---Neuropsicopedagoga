@@ -288,9 +288,10 @@
 }
 
 .lattes-link {
+  color: #521C57;
   text-decoration: none;
   font-weight: bold;
- text-decoration: underline;
+  text-decoration: underline;
 }
 
 .lattes-link:hover {
